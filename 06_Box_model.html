@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .ex1{
+            width: 300px;
+            border: 10px solid black;
+            padding: 25px;
+            margin: 15px;
+            background-color: lightblue;
+        }
+        .ex2{
+            width: 300px;
+            border: 5px solid red;
+            padding: 20px;
+            margin: 10px auto;
+            background-color: lightgreen;
+        }
+        .ex3
+        {
+            width: 300px;
+            border: 5px solid purple;
+            padding: 20px;
+            margin: 10px ;
+            background-color: lightgrey;
+            box-sizing: border-box;
+        }
+        .padding_top{
+            width: 300px;
+            border: 5px solid orange;
+            padding-top: 50px;
+            background-color: lightyellow;
+        }
+        .padding_right{
+            width: 300px;
+            border: 5px solid brown;
+            padding-right: 50px;
+            background-color: lightcoral;
+            margin-top: 10px;
+        }
+        .padding_bottom{
+            width: 300px;
+            border: 5px solid pink;
+            padding-bottom: 50px;
+            background-color: lightcyan;
+            margin-top: 10px;
+        }
+        .padding_left{
+            width: 250px;
+            border: 5px solid grey;
+            padding-left: 50px;
+            background-color: lightgoldenrodyellow;
+            margin-top: 10px;
+        }
+        .padding_4_property_in_single_line{
+            width: 300px;
+            border: 5px solid black;
+            padding: 10px 20px 30px 40px;
+            background-color: lightpink;
+            margin-top: 10px;
+        }
+        .padding_2_property_in_single_line{
+            width: 300px;
+            border: 5px solid green;
+            padding: 10px 30px;
+            background-color: lightseagreen;
+            margin-top: 10px;
+        }
+        .solid_style{
+            width: 300px;
+            border: 10px solid blue;
+            padding: 20px;
+            margin: 15px;
+            background-color: lightsteelblue;
+        }
+        .dotted_style{
+            width: 300px;
+            border: 10px dotted blue;
+            padding: 20px;
+            margin: 15px;
+            background-color: lightsteelblue;
+        }
+        .dashed_style{
+            width: 300px;
+            border: 10px dashed blue;
+            padding: 20px;
+            margin: 15px;
+            background-color: lightsteelblue;
+        }
+        .border_side :first-child{
+            width: 300px;
+            border-top: 10px solid blue;
+            padding: 20px;
+            margin: 15px;
+            background-color: lightsteelblue;
+        }
+        .border_side :nth-child(2){
+            width: 300px;
+            border-right: 10px solid blue;
+            padding: 20px;
+            margin: 15px;
+            background-color: lightsteelblue;
+        }
+        .border_side :nth-child(3){
+            width: 300px;
+            border-bottom: 10px solid blue;
+            padding: 20px;
+            margin: 15px;
+            background-color: lightsteelblue;
+        }
+        .border_side :last-child{
+            width: 300px;
+            border-left: 10px solid blue;
+            padding: 20px;
+            margin: 15px;
+            background-color: lightsteelblue;
+        }
+        .margin{
+            width: 900px;
+            border: 10px solid blue;
+        }
+        .margin :nth-child(2){
+            margin: 50px;
+            padding: 20px;
+            background-color: lightsteelblue;
+        }
+        .margin_properties :first-child{
+            margin: 10px;
+            padding: 20px;
+            background-color: lightsteelblue;
+        }
+        .margin_properties :nth-child(2){
+            margin: 10px 20px;
+            padding: 20px;
+            background-color: lightsteelblue;
+        }
+        .margin_properties :nth-child(3){
+            margin: 10px 20px 30px 40px;
+            padding: 20px;
+            background-color: lightsteelblue;
+        }
+        .margin_properties :nth-child(4){
+            margin-top: 10px;
+            padding: 20px;
+            background-color: lightsteelblue;
+        }
+        .margin_properties :nth-child(5){
+            margin-right: 10px;
+            padding: 20px;
+            background-color: lightsteelblue;
+        }
+        .margin_properties :nth-child(6){
+            margin-bottom: 10px;
+            padding: 20px;
+            background-color: lightsteelblue;
+        }
+        .margin_properties :nth-child(7){
+            margin-left: 10px;
+            padding: 20px;
+            background-color: lightsteelblue;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="Box_model">
+    <!-- The CSS Box Model is a rectangle layout praradigm used in css. -->
+     <!-- The Box Model consist of the Content , Padding , Border, Margin. -->
+<div class="ex1">
+     <p>This is  a Box Model example</p>
+</div>
+<div class="ex2">
+        this is Box model example with margin 10 px auto 
+</div>
+<div class="ex3">
+        <p>this is box mmodel example wiyh box-sizing border-box</p>
+</div>
+<div class="padding">
+    <!-- CSS padding is used to generate a space within an element, between the content and the border.
+     it helps to controlling the appearance and positioning of the content within a container. -->
+<div class="padding_properties">
+    <h2>CSS Padding Properties</h2>
+    <ul>
+        <li>padding-top</li>
+        <li>padding-right</li>
+        <li>padding-bottom</li>
+        <li>padding-left</li>
+        <li>padding</li>
+    </ul>
+    <div class="padding_top">
+        <p>
+            this is example of the padding top.
+        </p>
+    </div>
+    <div class="padding_right">
+        <p>
+            this is the example of the padding right.
+        </p>
+    </div>
+    <div class="padding_bottom">
+        <p>
+            this is the example of the padding bottom.
+        </p>
+    </div>
+    <div class="padding_left">
+        <p>
+            this is the example of the padding left.
+        </p>
+    </div>
+    <div class="padding_4_property_in_single_line">
+        <p>
+            this is the example of the padding property in single line.
+        </p>
+    </div>
+    <div class="padding_2_property_in_single_line">
+        <p>
+            this is the example of the padding property in single line with 2 values.
+        </p>
+    </div>
+</div>
+</div>
+<div class="border">
+    <!-- What is CSS ?
+            CSS borders are used to set the style,width,and color of the borders surrounding HTML element. 
+            They are an essential part of web design, helping to define the layout and appearance of web pages.
+            -->
+     <h2>Border Styling</h2>
+    <div class="solid_style">
+        
+        <p>This is the example of the Border solid</p>
+    </div>
+
+    <div class="dotted_style">
+       <p>this is the example of the doted style</p> 
+    </div>
+    <div class="dashed_style">
+        <p>this is a example of the dashed style</p>
+    </div>
+    <div class="border_side">
+        <p>
+            this is the example of the border top
+        </p>
+        <p>
+            this the example of the right side
+        </p>
+        <p>
+            This is the example of the bottom side
+        </p>
+        <p>
+            This is the example of the left side
+        </p>
+    </div>
+</div>
+<div class="margin">
+    <!-- CSS margin is used to create space around elements, outside of any defined borders. 
+         It helps to control the layout and positioning of elements on a web page. -->
+    <h2>CSS Margin</h2>
+    <p>This is the example of the margin</p>
+    <div class="margin_properties">
+        <p>
+            This is the example of the margin property margin:values; (margin:10px)
+        </p>
+        <p>
+            This is the example of the margin property margin:values value; (margin:10px 20px)
+        </p>
+        <p>
+            This is the example of the margin property margin:values value value value; (margin:10px 20px 30px 40px)
+        </p>
+        <p>
+            This is the example of the margin property margin-top:values; (margin-top:10px)
+        </p>
+        <p>
+            This is the example of the margin property margin-right:values; (margin-right:10px)
+        </p>
+        <p>
+            This is the example of the margin property margin-bottom:values; (margin-bottom:10px)
+        </p>
+        <p>
+            This is the example of the margin property margin-left:values; (margin-left:10px)
+        </p>
+
+
+</div>
+</div>
+</body>
+</html>

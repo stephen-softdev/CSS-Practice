@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #c21717;
+        }
+
+        #heading {
+            color: green;
+            text-align: center;
+        }
+        #paragraph {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #17c2b2;
+        }
+        .heading {
+            color: orange;
+            text-align: center;
+        }
+        .paragraph {
+            font-size: 22px;
+            line-height: 1.8;
+            color: #c217a6;
+        }
+        input[type="text"] {
+            padding: 10px;
+            color: white;
+            font-size: 16px;
+            border: 2px solid #1f0202;
+            border-radius: 4px;
+            background-color: #c217a6;
+        }
+    </style>
+</head>
+<body>
+    <!-- What is Selectors ?
+        CSS Selectors are patters used to select elements in an HTML document to apply styling.
+        The css selectors are in 7 types
+        1.Element Selector
+        2.Id Selector
+        3.Class Selector  
+        4.Attribute Selector
+        5.Pseudo-class selector
+        6.Pesudo-class Selector
+        7.Combination Selector -->
+
+    <!-- Why use CSS Selectors? 
+        There are three main factors are here for use the selectors
+        1.specificity: Target specific elements with precision
+        2.Reusability: Apply styles to multiple elements
+        3.Organization: Structure CSS efficiently by Grouping styles.-->
+   <div class="1_elemet_selectors">
+    <!-- what is Element selector?
+            The element selector select elements based on their tag name. -->
+    <h1>This h1 tag is styled by the element selector.</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex pariatur rem cumque maiores, asperiores ipsum amet saepe, exercitationem obcaecati incidunt ipsa quisquam odio adipisci repudiandae accusantium consequuntur soluta natus? Mollitia!</p>
+
+   </div> 
+   <div class="2_Id_selector">
+    <!-- What is Id Selector ?
+        The Id selector is Id based on their id name. -->
+    <h1 id="heading">This h1 tag is styled by the Id selector.</h1>
+    <p id="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex pariatur
+   </div>   
+   <div class="3_class_selector">
+    <!-- What is Class Selector ?
+            The class selector selects elements based on their class attribute -->
+    <h1 class="heading">This h1 tag is styled by the Class selector.</h1>
+    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex pariatur
+   </div> 
+  <div class="attribute_selector">
+    <!-- What is Attribute Selector?
+        The attribute Selector select the elements based on their attribute value. -->
+    <form > 
+        <label for="">Example of the attribute selector</label>
+        <input type="text" placeholder="Enter your name">
+    </form>
+    </div>
+</body>
+</html>
