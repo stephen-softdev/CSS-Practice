@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>z index</title>
     <style>
         body{
             margin: 0;
@@ -71,6 +71,30 @@
             left: 120px;
             top: 320px;
         }
+        .negative-index{
+            height: 400px;
+            width: 400px;
+            background-color: aqua;
+            margin-top: 20px;
+            z-index: -1;
+        }
+        .ex1{
+            background-color: beige;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            z-index: 1;
+        }
+        .ex2{
+            background-color: rgb(161, 161, 18);
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 660px;
+            left: 25px;
+            z-index: 0;
+
+        }
     </style>
 </head>
 <body>
@@ -84,6 +108,10 @@
         <div class="box3"></div>
         <div class="box4"></div>
         <div class="box5"></div>
+    </div>
+    <div class="negative-index">
+    <div class="ex1"></div>
+    <div class="ex2"></div>    
     </div>
 </body>
 </html>
