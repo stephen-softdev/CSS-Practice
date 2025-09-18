@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .visible{
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            overflow: visible;
+            margin-bottom: 500px;
+        }
+        .scroll{
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            overflow: scroll;
+            margin-bottom: 10px;
+        }
+        .auto{
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            overflow: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="overflow">
+        <div class="visible">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+            <h1>This is the example of the overflow visible</h1>
+        </div>
+        <div class="scroll">
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+            <h1>This is the example of the overflow scroll</h1>
+        </div>
+        <div class="auto">
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+            <h1>This is the example of the overflow auto</h1>
+        </div>
+    </div>
+</body>
+</html>
