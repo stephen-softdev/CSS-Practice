@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+    .hover :hover{
+        color: rgb(29, 30, 30);
+        background-color: rgb(216, 137, 19);
+
+    }
+    .hover{
+        color: aqua;
+        background-color: antiquewhite;
+    }
+    .focus :focus{
+        color: rgb(17, 61, 99);
+        background-color: antiquewhite;
+    }
+    .first-child :first-child{
+        color: aqua;
+        background-color: black;
+    }
+    .nth-child{
+        color: bisque;
+        background-color: black;
+    }
+    .n_child :nth-child(1){
+        color: black;
+        background-color: antiquewhite;
+    }
+    .n_child{
+        color: aliceblue;
+        background-color: black;
+    }
+    .n_child :nth-child(3){
+        color: black;
+        background-color: antiquewhite;
+    }
+    .visited1 :visited{
+        color: aquamarine;
+    }
+    .fstltr ::first-letter{
+        color: rgb(49, 165, 127);
+        font-size: 40px;
+    }
+    .bfpg ::before{
+        content: "This is lorem:";
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .odd_even :nth-last-child(odd){
+        color: blue;
+    }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>This is styled by   the hover</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+        <p>this is alos styled by hover</h1>
+    </div>
+    <div class="focus">
+       <input type="text" placeholder="enter a name">
+    </div>
+    <div class="first-child">
+        <p>This is styled by   the first child</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+        <p>this is alos styled by first child</h1>
+    </div>
+    <div class="n_child">
+        <p>This is styled by   the n-th child</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+        <p>this is alos styled n-th child</h1>
+    </div>
+    <div class="visited1">
+        <a href="https://meet.google.com/landing"><p>This is styled by   the hover</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+        <p>this is alos styled by hover</h1></a>
+    </div>
+    <div class="fstltr">
+        <p>first litter</p>
+    </div>
+    <div class="bfpg">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quo eligendi asperiores sunt, laboriosam magni ut, id incidunt ipsa veritatis ullam autem minima, officiis fuga sit. Illo laudantium sequi eum.</p>
+    </div>
+    <div class="odd_even">
+        <p>This is styled by   the odd</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+        <p>this is alos styled by odd</p>
+        <p>This is styled by   the odd</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+        <p>this is alos styled by odd</p>
+        <p>This is styled by   the odd</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+        <p>this is alos styled by odd</p>
+        <p>This is styled by   the odd</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+        <p>this is alos styled by odd</p>
+    </div>
+    
+</body>
+</html>
