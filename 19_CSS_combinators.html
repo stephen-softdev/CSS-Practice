@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+        .descendant-combinator h1{
+            color: aqua;
+        }
+        .child-selector > h1{
+            color: bisque;
+        }
+        .adjacent-selector + h1{
+            color:rgb(162, 130, 130);
+        }
+        .general_sibiling ~ p {
+            color: rgb(30, 30, 194);
+        }
+    </style>
+</head>
+<body>
+    <div class="descendant-combinator">
+        <h1>This is styled by   the desedant combinators</h1>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+         <h1>this is alos styled by desedant combinator</h1>
+    </div>
+    <div class="child-selector">
+         <h1>This is styled by   the child combinators</h1>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+         <h1>this is alos styled by child combinator</h1>
+    </div>
+    <div class="adjacent-selector">
+         <p>This is styled by   the adjacent combinators</p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+         <p>this is alos styled by adjacent combinator</h1>
+    </div>
+    <div class="general_sibiling">
+        <p>This is styled by   the general combinators</p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas error blanditiis est, fugit nobis, veniam vero unde eligendi autem iusto commodi quisquam laborum reiciendis accusamus inventore consequatur a quos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae hic quos quas expedita quo neque sapiente odit accusantium totam quidem, dignissimos ipsa quis. Possimus optio dolorum ducimus deleniti eum.</p>
+         <p>this is alos styled by general combinator</h1>
+    </div>
+</body>
+</html>
