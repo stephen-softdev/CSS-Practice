@@ -1,61 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>icon</title>
     <style>
-        .using_unicode span::before{
-            content: "\1F617"; 
-            font-size: 50px;
-            display: inline-block;
-            margin: 10px;
-        }
-        .using_unicode span::after{
-            content: "\1F602"; 
-            font-size: 50px;
-            display: inline-block;
-            margin: 10px;
-        }
-        .using_custom_font span::before{
-            content: "\f007"; 
-            font-family: "Font Awesome 5 Free"; 
-            font-weight: 900; 
-            font-size: 50px;
-            display: inline-block;
-            margin: 10px;
-        }
-        .emoji span::before{
-            content: "😊";
-            font-size: 50px;
-            display: inline-block;
-            margin: 10px;
-
-        }
+      .using_unicode span::before {
+        content: "\1F617";
+        font-size: 50px;
+        display: inline-block;
+        margin: 10px;
+      }
+      .using_unicode span::after {
+        content: "\1F602";
+        font-size: 50px;
+        display: inline-block;
+        margin: 10px;
+      }
+      .using_custom_font span::before {
+        content: "\f007";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 50px;
+        display: inline-block;
+        margin: 10px;
+      }
+      .emoji span::before {
+        content: "😊";
+        font-size: 50px;
+        display: inline-block;
+        margin: 10px;
+      }
     </style>
-</head>
-<body>
-  <div class="icon">
-    <!-- What is icon in Css?
+  </head>
+  <body>
+    <div class="icon">
+      <!-- What is icon in Css?
             The Css refer to the use of the small graphical representations within a web pagge, styled and controled using CSS.
              -->
-    <!-- 
+      <!-- 
         There are four types of icons are here.
          * Image Icons
          * Icons fonts
          * SVG Icons
          * Css shapes -->
-         <div class="using_unicode">
-           <span></span> 
-         </div>
-         <div class="using_custom_font">
-            <span></span>
-         </div>
-         <div class="emoji">
-            <span></span>
-         </div>
-        
-
-  </div>  
-</body>
+      <div class="using_unicode">
+        <span></span>
+      </div>
+      <div class="using_custom_font">
+        <span></span>
+      </div>
+      <div class="emoji">
+        <span></span>
+      </div>
+    </div>
+  </body>
 </html>

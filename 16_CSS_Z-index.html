@@ -1,117 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>z index</title>
     <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        .static-order{
-            position: relative;
-            height: 200px;
-            width: 200px;
-            background-color: aqua;
-        }
-        .static-ex{
-            position: absolute;
-            height: 100px;
-            width: 100px;
-            background-color: rgb(165, 15, 43);
-            top: 50px;
-            left: 50px;
-        }
-        .multiple-element{
-            background-color: blueviolet;
-            height: 400px;
-            width: 400px;
-        }
-        .box1{
-            position: absolute;
-            background-color: wheat;
-            height: 50px;
-            width: 50px;
-            z-index: 5;
-        }
-        .box2{
-            position: absolute;
-            height: 50px;
-            width: 50px;
-            z-index: 4;
-            background-color: rgb(19, 205, 205);
-            left: 30px;
-            top: 250px;
-        }
-        .box3{
-            position: absolute;
-            height: 50px;
-            width: 50px;
-            z-index: 3;
-            background-color: rgb(155, 205, 19);
-            left: 65px;
-            top: 275px;  
-        }
-        .box4{
-            position: absolute;
-            height: 50px;
-            width: 50px;
-            z-index: 2;
-            background-color: rgb(205, 112, 19);
-            left: 95px;
-            top: 300px;
-        }
-        .box5{
-            position: absolute;
-            height: 50px;
-            width: 50px;
-            z-index: 1;
-            background-color: rgb(190, 16, 156);
-            left: 120px;
-            top: 320px;
-        }
-        .negative-index{
-            height: 400px;
-            width: 400px;
-            background-color: aqua;
-            margin-top: 20px;
-            z-index: -1;
-        }
-        .ex1{
-            background-color: beige;
-            height: 50px;
-            width: 50px;
-            position: absolute;
-            z-index: 1;
-        }
-        .ex2{
-            background-color: rgb(161, 161, 18);
-            height: 50px;
-            width: 50px;
-            position: absolute;
-            top: 660px;
-            left: 25px;
-            z-index: 0;
-
-        }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .static-order {
+        position: relative;
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+      }
+      .static-ex {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(165, 15, 43);
+        top: 50px;
+        left: 50px;
+      }
+      .multiple-element {
+        background-color: blueviolet;
+        height: 400px;
+        width: 400px;
+      }
+      .box1 {
+        position: absolute;
+        background-color: wheat;
+        height: 50px;
+        width: 50px;
+        z-index: 5;
+      }
+      .box2 {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        z-index: 4;
+        background-color: rgb(19, 205, 205);
+        left: 30px;
+        top: 250px;
+      }
+      .box3 {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        z-index: 3;
+        background-color: rgb(155, 205, 19);
+        left: 65px;
+        top: 275px;
+      }
+      .box4 {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        z-index: 2;
+        background-color: rgb(205, 112, 19);
+        left: 95px;
+        top: 300px;
+      }
+      .box5 {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        z-index: 1;
+        background-color: rgb(190, 16, 156);
+        left: 120px;
+        top: 320px;
+      }
+      .negative-index {
+        height: 400px;
+        width: 400px;
+        background-color: aqua;
+        margin-top: 20px;
+        z-index: -1;
+      }
+      .ex1 {
+        background-color: beige;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        z-index: 1;
+      }
+      .ex2 {
+        background-color: rgb(161, 161, 18);
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 660px;
+        left: 25px;
+        z-index: 0;
+      }
     </style>
-</head>
-<body>
-    <div class="static-order">
-    </div>
+  </head>
+  <body>
+    <div class="static-order"></div>
     <div class="static-ex"></div>
-    <br>
+    <br />
     <div class="multiple-element">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-        <div class="box5"></div>
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+      <div class="box5"></div>
     </div>
     <div class="negative-index">
-    <div class="ex1"></div>
-    <div class="ex2"></div>    
+      <div class="ex1"></div>
+      <div class="ex2"></div>
     </div>
-</body>
+  </body>
 </html>

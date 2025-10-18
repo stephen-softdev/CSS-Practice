@@ -1,93 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-<style>
-    body{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(to right, #5f4e49, #feb47b);
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .bt{
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(to right, #5f4e49, #feb47b);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .bt {
         padding: 8px;
-        background-color: #bb2d2d;;
+        background-color: #bb2d2d;
         border-radius: 12px;
         margin-top: 10px;
         width: 100%;
-    }
-    .form-container {
-      width: 400px;
-      margin: 0;
-      padding: 40px;
-      background: linear-gradient(to right, #7b2610, #feb47b);
-      height: 500px;
-      border-radius: 7px;
-        }
+      }
+      .form-container {
+        width: 400px;
+        margin: 0;
+        padding: 40px;
+        background: linear-gradient(to right, #7b2610, #feb47b);
+        height: 500px;
+        border-radius: 7px;
+      }
 
-        .form-container input[type=text], .form-container input[type=email] ,.form-container input[type=number] {
-          width: 100%;
-          padding: 12px 20px;
-          margin: 8px 0;
-          display: inline-block;
-          border: 1px solid #ccc;
-          box-sizing: border-box;
-          border-radius: 7px;
-        }
+      .form-container input[type="text"],
+      .form-container input[type="email"],
+      .form-container input[type="number"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 7px;
+      }
 
-        .form-container textarea {
-          width: 100%;
-          padding: 12px 20px;
-          margin: 8px 0;
-          display: inline-block;
-          border: 1px solid #ccc;
-          box-sizing: border-box;
-        }
+      .form-container textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
 
-        .form-container select {
-          width: 100%;
-          padding: 12px 20px;
-          margin: 8px 0;
-          display: inline-block;
-          border: 1px solid #ccc;
-          box-sizing: border-box;
-        }
+      .form-container select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
 
-        .form-container button {
-          background-color: #e00e0e;
-          color: white;
-          padding: 14px 20px;
-          margin: 8px 0;
-          border: none;
-          cursor: pointer;
-          width: 100%;
-          border-radius: 7px;
-        }
+      .form-container button {
+        background-color: #e00e0e;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 7px;
+      }
 
-        .form-container button:hover {
-          opacity: 0.8;
-        }
-</style>
-</head>
-<body>
-
+      .form-container button:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
     <div class="form-container">
       <form>
         <label for="name">Name:</label>
-        <input type="text"  placeholder="Enter your name"/>
+        <input type="text" placeholder="Enter your name" />
 
         <label for="email">Email:</label>
-        <input type="email"  placeholder="Enter your email"/>
+        <input type="email" placeholder="Enter your email" />
 
         <label for="message">Phone:</label>
-        <input type="text"  placeholder="Enter your phone number"/>
+        <input type="text" placeholder="Enter your phone number" />
         <label for="country">Department:</label>
         <select id="country" name="country">
           <option value="USA">CSE</option>
@@ -95,12 +96,12 @@
           <option value="UK">MECH</option>
         </select>
         <label for="message">Number of subject:</label>
-        <input type="number" placeholder="Enter Number of subject number"/> 
+        <input type="number" placeholder="Enter Number of subject number" />
         <label for="message">Your Goal</label>
-        <input type="text" placeholder="Enter your goal"/>  
-             
+        <input type="text" placeholder="Enter your goal" />
+
         <button type="submit">Submit</button>
       </form>
     </div>
-</body>
+  </body>
 </html>
