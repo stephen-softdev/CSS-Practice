@@ -5,14 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>background</title>
     <style>
-      .backgroun_color {
+      .background_color {
         background-color: aqua;
+      }
+      .back_img {
+        background-image: url("./Chicken-Biryani-Recipe.jpg");
+        height: 500px;
+        width: 500px;
+      }
+      .back_img h1 {
+        text-align: center;
+      }
+      .bgsize {
+        background-image: url("./Chicken-Biryani-Recipe.jpg");
+        height: 700px;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .bgsize h1{
+        text-align: center;
+        color: #f4e9d4;
       }
     </style>
   </head>
   <body>
     <div class="background_color">
       <h1>hello this is background color for this page</h1>
+    </div>
+    <div class="back_img">
+      <h1>Briyani</h1>
+    </div>
+    <h1>Background sizeS</h1>
+    <div class="bgsize">
+      <h1>Bg size contain</h1>
     </div>
   </body>
 </html>
